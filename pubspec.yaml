@@ -1,0 +1,23 @@
+name: debt_ledger_pro_image
+description: Professional Arabic debt ledger app with statement image sharing.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  share_plus: ^10.1.2
+  path_provider: ^2.1.5
+  screenshot: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
